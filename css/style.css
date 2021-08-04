@@ -66,6 +66,28 @@ body{
     padding: 0 10px;
 }
 
+.title{
+    padding-top: 189px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.title h2{
+    font-family: "Raleway" sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56,35px;
+    color: #01353E;
+}
+
+.title sub{
+    font-family: "Raleway" sans-serif;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 84,53px;
+    color: #00B2A0;
+}
+
 .header{
     position: relative;
     background-image: url("../img/Header-bg.jpg");
@@ -148,4 +170,14 @@ body{
     flex-direction: column;
     align-items:center;
     padding-top: 315px;
+}
+
+.faq__inner{
+    column-count: 2;
+    column-gap: 240px;
+}
+
+.faq__item{
+    color: #242121;
+    margin-bottom: 30px;
 }
