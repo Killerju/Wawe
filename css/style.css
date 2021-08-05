@@ -175,9 +175,97 @@ body{
 .faq__inner{
     column-count: 2;
     column-gap: 240px;
+    padding-bottom: 199px;
 }
 
 .faq__item{
     color: #242121;
+    margin-bottom: 30px;
+}
+
+.services{
+    background-color: #F8F8F8;
+}
+
+.services__title{
+    margin-bottom: 25px;
+}
+
+.services__items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__item + .services__item{
+    margin-left: 74px;
+}
+
+.services__item{
+    max-width: 350px;
+    margin-bottom: 103px;
+}
+
+.services__item-title{
+    position: relative;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #242121;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.sun::before{
+    content:url('../img/Sun.svg');
+    position: absolute;
+    left: 25px;
+    bottom: -20px;
+}
+
+.plane::before{
+    content:url('../img/Plane.svg');
+    position: absolute;
+    left: 35px;
+    bottom: 0;
+}
+
+.surfing::before{
+    content:url('../img/Surfing.svg');
+    position: absolute;
+    left: 40px;
+    bottom: 0;
+}
+
+.services__text{
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.one-text{
+    margin-top: 40px;
+}
+
+.services__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__info{
+    margin-bottom: 264px;
+}
+
+.info__item{
+    margin-bottom: 10px;
+}
+
+.info__item span{
+    font-weight: 400;
+    color: #242121;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.text__inner{
+    max-width: 600px;
     margin-bottom: 30px;
 }
